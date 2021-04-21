@@ -1,18 +1,21 @@
 
-## Overview:
-    Technical assignment for Spacelift. It includes a Terraform module that creates an API using AWS API Gateway that persists the Spacelift webhook data in a Dynamo DB Table.
+# Spacelift webhook persistence
+
+Technical assignment for Spacelift. It includes a Terraform module that creates an API using AWS API Gateway that persists the Spacelift webhook data in a Dynamo DB Table.
 
 ## How to use it
  
-    a) Clone the repository:
-        git clone https://github.com/mudash/spacelift.git
-    b) Change directory into the project folder and use regular terraform commands to init, plan and apply
+a) Clone the repository:
 
-        ```
-            terraform init
-            terraform plan
-            terraform apply
-        ```
+        git clone https://github.com/mudash/spacelift.git
+
+b) Change directory into the project folder and use regular terraform commands to init, plan and apply
+         
+        terraform init
+        terraform plan
+        terraform apply
+ 
+The terraform execution will output the URL of the deployed API. 
 
 ## Sample Output
   

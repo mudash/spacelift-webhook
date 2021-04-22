@@ -1,0 +1,17 @@
+{
+  "api-role": {
+    "sensitive": false,
+    "type": "string",
+    "value": "api-gateway-dynamo-role-tf"
+  },
+  "data-table": {
+    "sensitive": false,
+    "type": "string",
+    "value": "spacedata"
+  },
+  "deployment-url": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://690luqrlf2.execute-api.us-east-1.amazonaws.com/V1/spacelift"
+  }
+}

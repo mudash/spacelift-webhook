@@ -1,5 +1,6 @@
 
 # Spacelift webhook persistence
+# Sample Spacelift Module
 
 Technical assignment for Spacelift. It includes a Terraform module that creates an API using AWS API Gateway that persists the Spacelift webhook data in a Dynamo DB Table.
 

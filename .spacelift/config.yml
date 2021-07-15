@@ -1,0 +1,13 @@
+module_version: 0.1.1
+
+tests:
+    - name: Test the module with 0.12.7
+      terraform_version: 0.12.7
+      environment:
+        TF_VAR_one: onevar
+
+    - name: Test the submodule with 0.13.0
+      project_root: submodule
+      terraform_version: 0.13.0
+      environment:
+        TF_VAR_two: twovar

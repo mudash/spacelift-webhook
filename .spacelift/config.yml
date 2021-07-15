@@ -1,4 +1,4 @@
-module_version: 0.1.1
+module_version: 0.1.2
 
 tests:
     - name: Test the module with 0.12.7
@@ -10,4 +10,9 @@ tests:
       project_root: api_dyno
       terraform_version: 0.13.0
       environment:
-        TF_VAR_two: twovar
+        TF_VAR_aws_region: us-east-1
+        TF_VAR_dynamo_table_name: spacedata
+        TF_VAR_ddb_default_rcu: 5
+        TF_VAR_ddb_default_wcu: 5
+        TF_VAR_aws_gateway_stage: V1
+
